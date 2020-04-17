@@ -1,0 +1,21 @@
+{
+    "extends": [
+        "airbnb",
+        "prettier",
+        "plugin:import/errors",
+        "plugin:import/warnings",
+        "plugin:jsx-a11y/recommended"
+    ],
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "plugins": ["prettier"],
+    "rules": {
+        "prettier/prettier": ["error"],
+        "indent": ["error", 4],
+        "strict": 0,
+        "no-var": "error",
+        "no-console": 0
+    }
+}
